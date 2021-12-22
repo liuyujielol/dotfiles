@@ -53,7 +53,10 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 " nightfox theme
 let g:lightline = {'colorscheme': 'nightfox'}
 
-" airline config
+" disable perl
+let g:loaded_perl_provider = 0
+
+"airline config
 
 "set laststatus=2  "永远显示状态栏
 "let g:airline_powerline_fonts = 1  " 支持 powerline 字体
