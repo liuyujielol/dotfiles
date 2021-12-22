@@ -58,6 +58,9 @@ let g:loaded_perl_provider = 0
 
 " disable python2
 let g:loaded_python_provider = 0
+
+" absolute path for neovim ruby client
+let g:ruby_host_prog = /usr/bin/neovim-ruby-host
 "airline config
 
 "set laststatus=2  "永远显示状态栏
