@@ -51,6 +51,7 @@ let g:AutoPairsShortcutBackInsert = '<M-b>'
 
 
 " nightfox theme
+colorscheme nightfox
 let g:lightline = {'colorscheme': 'nightfox'}
 
 " disable perl
