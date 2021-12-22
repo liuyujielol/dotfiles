@@ -22,8 +22,11 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 
-"NERDTree Section
+" NERDTree Section
 Plug 'preservim/nerdtree'
+
+" auto-pairs Section
+Plug 'jiangmiao/auto-pairs'
 
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -31,3 +34,6 @@ call plug#end()
 
 " NERDTree key map
 map <C-n> :NERDTreeToggle<CR>
+
+" aut-pairs config
+au Filetype FILETYPE let b:AutoPairs = {"(": ")"}au FileType php      let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
