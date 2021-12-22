@@ -22,6 +22,8 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
 
+"NERDTree Section
+Plug 'preservim/nerdtree'
 
 
 " List ends here. Plugins become visible to Vim after this call.
