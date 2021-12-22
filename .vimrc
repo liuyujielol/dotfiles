@@ -45,10 +45,12 @@ call plug#end()
 map <C-n> :NERDTreeToggle<CR>
 
 " auto-pairs config
-au Filetype FILETYPE let b:AutoPairs = {"(": ")"}au FileType php      let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+au Filetype FILETYPE
+let b:AutoPairs = {"(": ")"}
+au FileType php
+let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
 
 " nightfox theme
-" Vim Script
 let g:lightline = {'colorscheme': 'nightfox'}
 
 " airline config
