@@ -32,6 +32,11 @@ Plug 'jiangmiao/auto-pairs'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 
+" LightLine Section
+Plug 'itchyny/lightline.vim'
+
+" nightfox theme
+Plug 'EdenEast/nightfox.nvim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -41,6 +46,10 @@ map <C-n> :NERDTreeToggle<CR>
 
 " auto-pairs config
 au Filetype FILETYPE let b:AutoPairs = {"(": ")"}au FileType php      let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+
+" nightfox theme
+" Vim Script
+let g:lightline = {'colorscheme': 'nightfox'}
 
 " airline config
 
