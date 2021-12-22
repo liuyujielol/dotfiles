@@ -28,3 +28,6 @@ Plug 'preservim/nerdtree'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+" NERDTree key map
+map <C-n> :NERDTreeToggle<CR>
