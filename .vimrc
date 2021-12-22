@@ -45,10 +45,10 @@ call plug#end()
 map <C-n> :NERDTreeToggle<CR>
 
 " auto-pairs config
-au Filetype FILETYPE
-let b:AutoPairs = {"(": ")"}
-au FileType php
-let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+"au Filetype FILETYPE let b:AutoPairs = {'(': ')'} au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+let g:AutoPairsFlyMode = 0
+let g:AutoPairsShortcutBackInsert = '<M-b>'
+
 
 " nightfox theme
 let g:lightline = {'colorscheme': 'nightfox'}
