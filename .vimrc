@@ -4,10 +4,7 @@ set showmatch
 
 lua require('plugins')
 
-" auto-pairs config
-"au Filetype FILETYPE let b:AutoPairs = {'(': ')'} au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
-"let g:AutoPairsFlyMode = 0
-"let g:AutoPairsShortcutBackInsert = '<M-b>'
+map <C-n> :NvimTreeToggle<CR>
 
 
 " nightfox theme

@@ -12,20 +12,18 @@ return require('packer').startup(function()
         requires = {
             'kyazdani42/nvim-web-devicons', -- optional, for file icon
         },
-        config = function()
-            require 'nvim-tree'.setup {}
-        end
+        config = [[require('config.nvim-tree')]],
     }
 
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true },
-        config = [[(require('config.lualine'))]],
+        config = [[require('config.lualine')]],
     }
 
     use {
         'EdenEast/nightfox.nvim',
-        config = [[(require('config.nightfox'))]],
+        config = [[require('config.nightfox')]],
     }
 end)
 
