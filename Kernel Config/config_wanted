@@ -1,2 +1,29 @@
 # kernel config  options wanted by packages
+#
+ >>> Running pre-merge checks for net-firewall/ufw-0.36
+ * Determining the location of the kernel source code
+ * Found kernel source directory:
+ *     /usr/src/linux
+ * Found sources for kernel version:
+ *     5.15.11-gentoo-lsmod
+ * Checking for suitable kernel configuration options...
+ *   CONFIG_NETFILTER_XT_MATCH_COMMENT:  is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_HL:       is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_LIMIT:    is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_MULTIPORT:        is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_RECENT:   is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_STATE:    is not set when it should be.
+ *   CONFIG_NETFILTER_XT_MATCH_ADDRTYPE:         is not set when it should be.
+ *   CONFIG_NETFILTER_XT_TARGET_LOG:     is not set when it should be.
+ *   CONFIG_IP_NF_TARGET_REJECT:         is not set when it should be.
+ *   CONFIG_IP6_NF_TARGET_REJECT:        is not set when it should be.
+ * Please check to make sure these options are set correctly.
+ * Failure to do so may cause unexpected problems.
+
+ * Kernel options listed below are not set. They are not mandatory, but they are often useful. If you don't need some of them, please remove relevant module name(s) from IPT_MODULES in '/etc/default/ufw' before (re)starting ufw. Otherwise ufw may fail to start!
+ * NF_NAT_FTP: for better support for active mode FTP.
+ * NF_CONNTRACK_FTP: for better support for active mode FTP.
+ * NF_CONNTRACK_NETBIOS_NS: for better Samba support.
+
+
 
