@@ -3,11 +3,14 @@ app-admin/sudo
 app-crypt/libsecret
 app-editors/nano
 app-eselect/eselect-repository
+app-i18n/fcitx5-kkc
 app-i18n/fcitx5-meta::gentoo-zh
 app-misc/screen
 app-portage/eix
 app-portage/euses
 app-portage/gentoolkit
+app-portage/iwdevtools
+app-portage/mgorny-dev-scripts
 app-portage/pfl
 app-portage/portage-utils
 app-portage/repoman
@@ -19,6 +22,7 @@ dev-java/openjdk-bin:17
 dev-libs/libgit2
 dev-util/ccache
 dev-util/ctags
+dev-util/pkgdev
 dev-vcs/git
 games-action/multimc-bin
 kde-apps/kdeadmin-meta
@@ -33,8 +37,6 @@ kde-plasma/ksysguard
 kde-plasma/plasma-meta
 media-fonts/ibm-plex
 media-fonts/noto-cjk
-media-sound/mumble
-media-sound/murmur
 net-im/telegram-desktop
 net-libs/nodejs
 net-misc/aria2
@@ -51,6 +53,7 @@ sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
 sys-process/lsof
+www-client/firefox
 www-client/google-chrome
 www-client/google-chrome-unstable
 x11-themes/tela-icon-theme
