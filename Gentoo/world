@@ -16,6 +16,7 @@ app-shells/zsh
 app-shells/zsh-completions
 dev-util/ccache
 dev-util/pkgdev
+games-action/multimc-bin
 kde-apps/kdeadmin-meta
 kde-apps/kdecore-meta
 kde-apps/kdegraphics-meta
@@ -23,6 +24,7 @@ kde-apps/kdenetwork-meta
 kde-apps/kdepim-meta
 kde-apps/kdeutils-meta
 kde-misc/latte-dock
+kde-misc/plasma-applet-netspeed-widget::gentoo-zh
 kde-plasma/plasma-meta
 media-fonts/ibm-plex
 media-fonts/noto-cjk
