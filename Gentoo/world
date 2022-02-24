@@ -2,6 +2,8 @@ app-admin/doas
 app-editors/nano
 app-eselect/eselect-repository
 app-i18n/fcitx5-meta::gentoo-zh
+app-misc/neofetch
+app-misc/wayland-utils
 app-portage/eix
 app-portage/euses
 app-portage/gentoolkit
@@ -14,9 +16,12 @@ app-shells/bash-completion
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
+dev-java/openjdk-bin:17
 dev-util/ccache
 dev-util/pkgdev
-games-action/multimc-bin
+dev-util/vulkan-tools
+games-action/minecraft-launcher
+games-util/steam-meta::steam-overlay
 kde-apps/kdeadmin-meta
 kde-apps/kdecore-meta
 kde-apps/kdegraphics-meta
@@ -28,6 +33,8 @@ kde-misc/plasma-applet-netspeed-widget::gentoo-zh
 kde-plasma/plasma-meta
 media-fonts/ibm-plex
 media-fonts/noto-cjk
+media-libs/amdgpu-pro-vulkan
+media-libs/vulkan-loader
 net-im/telegram-desktop
 net-misc/proxychains
 net-proxy/v2rayA::gentoo-zh
@@ -36,6 +43,7 @@ sys-boot/grub:2
 sys-fs/btrfs-progs
 sys-kernel/gentoo-kernel-bin
 sys-kernel/linux-firmware
+sys-kernel/xanmod-kernel:edge::gentoo-zh
 sys-process/cronie
 sys-process/htop
 sys-process/lsof
@@ -43,4 +51,6 @@ www-apps/code-server-bin::guru
 www-client/firefox
 www-client/google-chrome
 www-client/google-chrome-unstable
+x11-apps/mesa-progs
+x11-apps/xdpyinfo
 x11-themes/tela-icon-theme
