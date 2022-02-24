@@ -1,0 +1,16 @@
+# Remove files that shall not be installed from this list.
+amdgpu/polaris12_vce.bin
+amdgpu/polaris12_uvd.bin
+amdgpu/polaris12_smc.bin
+amdgpu/polaris12_sdma1.bin
+amdgpu/polaris12_sdma.bin
+amdgpu/polaris12_rlc.bin
+amdgpu/polaris12_pfp_2.bin
+amdgpu/polaris12_mec2_2.bin
+amdgpu/polaris12_mec_2.bin
+amdgpu/polaris12_me_2.bin
+amdgpu/polaris12_mc.bin
+amdgpu/polaris12_ce_2.bin
+rtl_bt/rtl8822b_config.bin
+rtl_bt/rtl8822b_fw.bin
+rtw88/rtw8822b_fw.bin
