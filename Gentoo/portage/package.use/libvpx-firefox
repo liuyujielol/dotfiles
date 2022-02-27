@@ -1,4 +1,0 @@
-# required by www-client/firefox-97.0::gentoo[system-libvpx]
-# required by www-client/firefox (argument)
->=media-libs/libvpx-1.11.0 postproc
-

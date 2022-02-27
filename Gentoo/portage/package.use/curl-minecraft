@@ -1,3 +1,0 @@
-# required by games-action/minecraft-launcher-1093::gentoo
-# required by games-action/minecraft-launcher (argument)
-net-misc/curl adns
