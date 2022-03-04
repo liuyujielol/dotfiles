@@ -1,6 +1,4 @@
 app-admin/doas
-app-crypt/certbot
-app-crypt/certbot-nginx
 app-editors/nano
 app-eselect/eselect-repository
 app-i18n/fcitx5-meta::gentoo-zh
