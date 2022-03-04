@@ -1,4 +1,6 @@
 app-admin/doas
+app-crypt/certbot
+app-crypt/certbot-nginx
 app-editors/nano
 app-eselect/eselect-repository
 app-i18n/fcitx5-meta::gentoo-zh
@@ -17,6 +19,7 @@ app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-shells/zsh-completions
 dev-java/openjdk-bin:17
+dev-python/pip
 dev-util/ccache
 dev-util/pkgdev
 dev-util/vulkan-tools
@@ -43,7 +46,7 @@ sys-boot/grub:2
 sys-fs/btrfs-progs
 sys-kernel/gentoo-kernel-bin
 sys-kernel/linux-firmware
-sys-kernel/xanmod-kernel:edge::gentoo-zh
+sys-kernel/xanmod-sources
 sys-process/cronie
 sys-process/htop
 sys-process/lsof
@@ -51,6 +54,7 @@ www-apps/code-server-bin::guru
 www-client/firefox
 www-client/google-chrome
 www-client/google-chrome-unstable
+www-servers/nginx
 x11-apps/mesa-progs
 x11-apps/xdpyinfo
 x11-themes/tela-icon-theme
