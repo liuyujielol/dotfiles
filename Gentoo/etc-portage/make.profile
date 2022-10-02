@@ -1,1 +1,1 @@
-../../var/db/repos/gentoo/profiles/default/linux/amd64/17.1/desktop/plasma/systemd
+../../var/db/repos/local/profiles/clang/amd64/plasma/merged-usr/

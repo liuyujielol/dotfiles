@@ -1,0 +1,3 @@
+#export ax_cv_c_float_words_bigendian=no
+
+export acx_cv_cc_gcc_supports_ada=no

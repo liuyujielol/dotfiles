@@ -1,1 +1,1 @@
-sys-kernel/linux-firmware savedconfig initramfs
+sys-kernel/linux-firmware initramfs savedconfig

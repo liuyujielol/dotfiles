@@ -1,0 +1,13 @@
+# required by sys-libs/ncurses-6.3_p20220924::gentoo[gpm]
+# required by app-crypt/pinentry-1.2.1::gentoo[ncurses]
+# required by app-crypt/gnupg-2.3.7-r1::gentoo
+# required by app-crypt/gpgme-1.18.0-r1::gentoo
+# required by app-portage/portage-utils-0.94.3::gentoo[-static,qmanifest]
+# required by app-admin/perl-cleaner-2.30::gentoo
+# required by dev-lang/perl-5.36.0::gentoo[-minimal]
+# required by virtual/perl-CPAN-2.330.0::gentoo
+# required by dev-lang/perl-5.34.1-r3::gentoo[-minimal]
+# required by virtual/perl-Digest-MD5-2.580.0-r1::gentoo
+# required by dev-perl/libwww-perl-6.600.0-r1::gentoo
+# required by dev-perl/LWP-Protocol-https-6.100.0::gentoo
+>=sys-libs/gpm-1.20.7-r5 abi_x86_32

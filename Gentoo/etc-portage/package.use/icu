@@ -1,0 +1,6 @@
+# required by dev-libs/libxml2-2.10.2::gentoo[icu]
+# required by app-crypt/gcr-3.41.1::gentoo[gtk]
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=dev-libs/icu-71.1-r1 abi_x86_32

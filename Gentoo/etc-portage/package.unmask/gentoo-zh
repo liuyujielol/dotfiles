@@ -1,21 +1,17 @@
-#v2rayA
-dev-libs/v2ray-domain-list-community-bin::gentoo-zh
+# fcitx
+x11-libs/xcb-imdkit::gentoo-zh
+app-i18n/libime::gentoo-zh
+app-i18n/fcitx::gentoo-zh
+app-i18n/fcitx-table-extra::gentoo-zh
+app-i18n/fcitx-table-other::gentoo-zh
+app-i18n/fcitx-chinese-addons::gentoo-zh
+app-i18n/fcitx-configtool::gentoo-zh
+app-i18n/fcitx-gtk::gentoo-zh
+app-i18n/fcitx-qt::gentoo-zh
+app-i18n/fcitx-meta::gentoo-zh
+# proxy
+net-proxy/clash-verge-bin::gentoo-zh
 dev-libs/v2ray-geoip-bin::gentoo-zh
+dev-libs/v2ray-domain-list-community-bin::gentoo-zh
 net-proxy/v2ray::gentoo-zh
 net-proxy/v2rayA::gentoo-zh
-#fcitx5
-app-i18n/fcitx5::gentoo-zh
-app-i18n/fcitx5-configtool::gentoo-zh
-app-i18n/libime::gentoo-zh
-app-i18n/fcitx5-chinese-addons::gentoo-zh
-app-i18n/fcitx5-gtk::gentoo-zh
-app-i18n/fcitx5-qt::gentoo-zh
-x11-libs/xcb-imdkit::gentoo-zh
-app-i18n/rime-prelude::gentoo-zh
-app-i18n/fcitx5-kkc::gentoo-zh
-app-i18n/fcitx5-rime::gentoo-zh
-app-i18n/fcitx5-meta::gentoo-zh
-#kde-misc
-kde-misc/plasma-applet-netspeed-widget::gentoo-zh
-#kernel
-sys-kernel/xanmod-kernel::gentoo-zh

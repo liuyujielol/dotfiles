@@ -1,0 +1,4 @@
+# required by x11-misc/xdg-utils-1.1.3_p20210805::gentoo
+# required by app-portage/mgorny-dev-scripts-28::gentoo
+# required by app-portage/mgorny-dev-scripts (argument)
+>=app-text/xmlto-0.0.28-r9 text
