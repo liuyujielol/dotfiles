@@ -1,0 +1,14 @@
+#!/bin/bash
+
+function pre_pkg_setup() {
+	einfo "see if we have cargo eclass"
+	if [[ -n "${_CARGO_ECLASS}" ]]; then
+		einfo "cargo eclass exists"
+		einfo "RUSTFLAGS: ${RUSTFLAGS}"
+		einfo "enforcing clang-14 to match with RUSTFLAGS for thinlto"
+		CC="clang-14"
+		CXX="clang++-14"
+
+		tc-export AR CC CXX
+	fi
+}
