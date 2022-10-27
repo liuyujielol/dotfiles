@@ -1,1 +1,1 @@
-../../var/db/repos/local/profiles/clang/amd64/plasma/merged-usr/
+../../var/db/repos/local/profiles/llvm-systemd-plasma

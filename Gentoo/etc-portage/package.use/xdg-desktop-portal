@@ -1,0 +1,4 @@
+# required by kde-apps/krfb-22.08.2::gentoo[wayland]
+# required by kde-apps/kdenetwork-meta-22.08.2::gentoo
+# required by kde-apps/kdenetwork-meta (argument)
+>=sys-apps/xdg-desktop-portal-1.15.0 screencast
