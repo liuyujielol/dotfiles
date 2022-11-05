@@ -1,5 +1,6 @@
 CC="gcc"
 CXX="g++"
+LD="ld.lld"
 
 AR="${CHOST}-ar"
 NM="${CHOST}-nm"

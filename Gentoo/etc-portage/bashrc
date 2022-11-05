@@ -4,12 +4,11 @@ function pre_pkg_setup() {
 	einfo "see if we have cargo eclass"
 	if [[ -n "${_CARGO_ECLASS}" ]]; then
 		einfo "cargo eclass exists"
-		RUSTFLAGS="${RUSTFLAGS} -Ccodegen-units=1 -Lnative=/usr/lib/llvm/14/lib64 -Clinker=clang-14 -Clink-arg=-fuse-ld=lld -Clink-arg=--ld-path=/usr/lib/llvm/14/bin/ld.lld -Ctarget-feature=-crt-static -Clinker-plugin-lto -Clink-arg=-flto=thin -Clink-arg=-Wl,--lto-O3,-O3,--icf=safe"
-		einfo "RUSTFLAGS: ${RUSTFLAGS}"
-		einfo "enforcing clang-14 to match with RUSTFLAGS for thinlto"
-		CC="clang-14"
-		CXX="clang++-14"
-
-		tc-export AR CC CXX
+		# Show flags set
+		einfo "Current BINDGEN_CFLAGS:\t${BINDGEN_CFLAGS:-no value set}"
+		einfo "Current CFLAGS:\t\t${CFLAGS:-no value set}"
+		einfo "Current CXXFLAGS:\t\t${CXXFLAGS:-no value set}"
+		einfo "Current LDFLAGS:\t\t${LDFLAGS:-no value set}"
+		einfo "Current RUSTFLAGS:\t\t${RUSTFLAGS:-no value set}"
 	fi
 }
