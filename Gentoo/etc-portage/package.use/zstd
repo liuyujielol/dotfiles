@@ -1,3 +1,0 @@
-# required by sys-devel/llvm-15.0.3::gentoo[zstd]
-# required by sys-devel/llvm-toolchain-symlinks-15-r1::gentoo
->=app-arch/zstd-1.5.2-r3 abi_x86_32
